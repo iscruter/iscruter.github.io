@@ -55,4 +55,4 @@ npm install
 ```
 
 ## Demo Site
-https://akumar261089.github.io/nuxtjs-quickstart/
+https://iscruter.github.io/
