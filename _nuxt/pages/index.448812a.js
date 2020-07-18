@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{281:function(n,e,t){"use strict";t.r(e);var l={layout:"index"},c=t(61),o=t(117),r=t.n(o),w=t(264),component=Object(c.a)(l,(function(){var n=this.$createElement;return(this._self._c||n)("v-app",[this._v("\n  This is index\n")])}),[],!1,null,null,null);e.default=component.exports;r()(component,{VApp:w.a})}}]);

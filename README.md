@@ -1,58 +1,11 @@
+# STATIC
 
-# Quick start guide for Nuxt Js
+**This directory is not required, you can delete it if you don't want to use it.**
 
-## Create new project
-Need to install node(+npm,npx)
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
+Thus you'd want to delete this README.md before deploying to production.
 
-Need to install nuxt
-```
-  npm install --save nuxt
-```
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-#### To create Nuxt Project
-```
-  npx create-nuxt-app new
-```
-
-
-#### Run on local machine
-```
-npm run dev
-```
-
-#### Run as Static website (Github pages, Nginx etc)
-Update `nuxt.config.js`
-
-```
-export default {
-  ...
-  target: 'static',
-  ...
-```
-
-Generate static files under `dist` folder
-``` 
-npm run build
-nuxt export
-```
-To run Locally
-```
-nuxt serve
-```
-
-Content of `dist` folder can be copied to Nginx or Github pages. You can try this with Nginx docker
-Replace your path to dist folder.
-
-```
-docker run -p 80:80  -v /home/abhi/github/nuxt-quickstart/new/dist:/usr/share/nginx/html:ro nginx
-```
-## To run this 
-
-``` 
-git clone
-cd 
-npm install
-```
-
-## Demo Site
-https://iscruter.github.io/
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
